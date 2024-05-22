@@ -1,0 +1,16 @@
+How to use sound in Vanilla JS
+
+the [new¹ Audio()] constructor allows you to create a new HTMLAudioElement¹⁰. Pass in the url of the audio file like so:
+
+let beat = new Audio('/path/to/my/beat.mp3');
+
+After it is created, you can use the same methods avalible on an HTML <audio> element.
+
+// To play the beat
+beat.play
+
+// To pause the beat
+beat.pause();
+
+// Relod the beat (back to the start)
+beat.load();
